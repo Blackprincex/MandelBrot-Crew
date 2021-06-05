@@ -73,7 +73,7 @@
 
 
 .footer {
-  background-image: url(/images/footer.svg);
+  background-image: url(footer.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: bottom;
