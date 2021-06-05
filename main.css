@@ -1,0 +1,111 @@
+:root {
+  --bg-color:black;
+  --typewriterSpeed: 3s;
+  --typewriterCharacters: 24;
+}
+
+@font-face {
+  font-family: 'Product Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
+}
+    
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: var(--bg-color);
+}
+
+body {
+  font-family: "Old Standard TT";
+  display: block;
+  text-align: center;
+  background: var(--bg-color);
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 350px;
+}
+
+header {
+  font-size: 80px;
+  position: relative;
+  font-family: 'Source Code Pro', sans-serif;
+  position: relative;
+  width: max-content;
+  font-weight: bold;
+}
+
+header::before,
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+header::before {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-color);
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+header::after {
+  width: 0.125em;
+  background: white;
+  animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards,
+    blink 1000ms steps(var(--typewriterCharacters)) infinite;
+}
+
+
+section {
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 50px;
+  color: white;
+  font-size: 36px;
+}
+
+
+.subtitle {
+  color: rgb(150, 144, 144);
+  font-size: 3.5rem;
+  font-weight: 400;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+}
+
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+hr {
+  width: 50%
+}

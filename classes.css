@@ -1,0 +1,156 @@
+
+.topnav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    right: 0px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.topnav a {
+    display: block;
+    float: left;
+    color:  white;
+    padding: 1em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Product Sans Regular';
+    src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: orange;
+    color: grey;
+}
+
+.text-fill {
+  text-decoration: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: thin grey;
+
+}
+
+.text-fill:hover {
+  -webkit-text-fill-color: grey;
+}
+
+
+.text {
+  font-size: 24px;
+}
+
+.left {
+  text-align: left;
+  font-size: 30px;
+}
+
+.center {
+  text-align: center;
+  font-size: 36px;
+}
+
+.section-headers {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Product Sans Regular';
+  src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
+}
+
+
+.text-fill-a {
+  background: -webkit-linear-gradient(rgb(255, 81, 0), #f9cb29);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+.footer {
+  background-image: url(/images/footer.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.footer-image {
+  width: 25%;
+  height: 50%;
+}
+
+.btn-forward {
+  cursor: pointer;
+  width: 10rem;
+  height: 4rem;
+  background-color: white;
+}
+
+.next {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Header/Blog Title */
+.div-header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 45%;
+}
+
+.rightcolumn {
+  float: right;
+  width: 45%
+}
+
+/* Fake image */
+.fakeimg {
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+/* Add a card effect for articles */
+.card {
+   text-align: left;
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.div-footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
