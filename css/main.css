@@ -55,3 +55,10 @@ section {
   opacity: 0;
   transform: translateY(3rem);
 }
+
+hr {
+  align-content: center;
+  border-style: solid;
+  height: 20px;
+  width: 50%;
+}
