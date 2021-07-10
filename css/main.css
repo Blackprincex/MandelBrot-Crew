@@ -54,16 +54,3 @@ section {
   opacity: 0;
   transform: translateY(3rem);
 }
-
-hr {
-  height: 0.1em;
-  width: 100%;
-  background: linear-gradient(
-      to right,
-      rgb(22, 22, 22),
-      rgb(87, 85, 85),
-      rgb(231, 230, 230)
-  );
-  border-radius: 12px;
-  border-style: solid;
-}
