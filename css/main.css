@@ -58,6 +58,7 @@ section {
 hr {
   align-content: center;
   border-style: solid;
-  height: 20px;
+  border-color: black;
+  height: 10px;
   width: 50%;
 }
