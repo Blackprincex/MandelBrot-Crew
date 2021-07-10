@@ -12,7 +12,7 @@
     
 html {
   scroll-behavior: smooth;
-  scrollbar-color: #16161d;
+  scrollbar-color: black;
 }
 
 body {
@@ -53,14 +53,14 @@ header::before {
   display: grid;
   align-items: center;
   justify-content: center;
-  background: white;
+  background: black;
   animation: typewriter var(--typewriterSpeed)
     steps(var(--typewriterCharacters)) 1s forwards;
 }
 
 header::after {
   width: 0.125em;
-  background: black;
+  background: white;
   animation: typewriter var(--typewriterSpeed)
       steps(var(--typewriterCharacters)) 1s forwards,
     blink 1000ms steps(var(--typewriterCharacters)) infinite;
@@ -73,6 +73,7 @@ section {
   padding: 50px;
   color: black;
   font-size: 36px;
+  background-color: white;
 }
 
 
