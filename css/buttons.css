@@ -1,0 +1,55 @@
+.in-btn {
+  width: 150px;
+  height: 50%
+}
+
+.btn-forward{
+  height: 75px;
+  width: 200px;
+  background-color: white;
+  border: 5px solid #000000;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn-forward:before,
+.btn-forward:after{
+  content: "";
+  color: white;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  border: 5px solid rgb(255, 254, 254);
+  transition: 0.3s;
+}
+
+.btn-forward:before{
+  bottom: -15px;
+  left: -15px;
+  z-index: -1;
+}
+
+.btn-forward:after{
+  content: attr(data-text);
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 3px;
+  display: grid;
+  place-items: center;
+  top: -15px;
+  right: -15px;
+  z-index: 1;
+}
+
+.btn-forward:hover:before{
+  bottom: -5px;
+  left: -5px;
+}
+
+.btn-forward:hover:after{
+  top: -5px;
+  right: -5px;
+  background-color: #f3f7fa;
+  color: #000000;
+}

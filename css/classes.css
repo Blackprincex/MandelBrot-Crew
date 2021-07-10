@@ -1,0 +1,124 @@
+
+.header{
+  font-size: 100px;
+  position: relative;
+  text-decoration: none;
+  font-family: 'Product Sans Regular';
+  src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
+  color: black;
+  cursor: pointer;
+}
+
+.header:before{
+  content: "";
+  position: absolute;
+  height: 0.1em;
+  width: 800px;
+  background: linear-gradient(
+      to right,
+      #fd004c,
+      #fe9000,
+      #fff020,
+      #3edf4b,
+      #3363ff,
+      #b102b7
+  );
+  background-size: 200% 100%;
+  bottom: -0.1em;
+  transition: 1.5s;
+}
+
+.header:hover:before{
+  background-position: 100% 0;
+}
+
+.topnav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    right: 0px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.topnav a {
+    display: block;
+    float: left;
+    color:  black;
+    padding: 1em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Product Sans Regular';
+    src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: orange;
+    color: grey;
+}
+
+.text-fill {
+  text-decoration: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: thin grey;
+
+}
+
+.text-fill:hover {
+  -webkit-text-fill-color: grey;
+}
+
+.column {
+  font-family: 'Product Sans';
+  font-size: 20px;
+  text-align: justify;
+  line-height: 35px;
+  -webkit-columns: 250px 2;
+  -moz-columns: 250px 2;
+  columns: 250px 2;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+}
+p {
+  font-size: 24px;
+  text-align: left;
+}
+
+.left {
+  text-align: left;
+  font-size: 27px;
+  padding: 1rem;
+}
+.center {
+  text-align: center;
+  font-size: 27px;
+  padding: 1rem;
+}
+
+.section-headers {
+  color: black;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Product Sans Regular';
+  src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
+}
+
+.text-fill-a {
+  background: -webkit-linear-gradient(rgb(255, 81, 0), #f9cb29);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.footer-image {
+  width: 25%;
+  height: 50%;
+}
+
+
