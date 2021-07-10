@@ -49,6 +49,7 @@
 .left {
   text-align: left;
   font-size: 30px;
+  padding: 3rem;
 }
 
 .center {
@@ -114,7 +115,7 @@
 
 .rightcolumn {
   float: right;
-  width: 45%
+  width: 45%;
 }
 
 /* Fake image */
