@@ -1,5 +1,4 @@
 :root {
-  --bg-color:black;
   --typewriterSpeed: 3s;
   --typewriterCharacters: 24;
 }
@@ -13,14 +12,14 @@
     
 html {
   scroll-behavior: smooth;
-  scrollbar-color: var(--bg-color);
+  scrollbar-color: #16161d;
 }
 
 body {
   font-family: "Old Standard TT";
   display: block;
   text-align: center;
-  background: var(--bg-color);
+  background: black;
 }
 
 .image {
@@ -54,7 +53,7 @@ header::before {
   display: grid;
   align-items: center;
   justify-content: center;
-  background: var(--bg-color);
+  background: black;
   animation: typewriter var(--typewriterSpeed)
     steps(var(--typewriterCharacters)) 1s forwards;
 }
