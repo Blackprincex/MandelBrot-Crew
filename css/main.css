@@ -39,9 +39,8 @@ header {
 
 section {
   height: 100vh;
-  max-height: 100vh;
   box-sizing: border-box;
-  padding: 50px;
+  padding: 2rem;
   color: black;
   font-size: 36px;
   background-color: white;
