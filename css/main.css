@@ -29,18 +29,18 @@ body {
 header {
   font-size: 80px;
   position: relative;
-  font-family: 'Source Code Pro', sans-serif;
+  font-family: 'Product Sans Regular';
+  src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
   position: relative;
   width: max-content;
   font-weight: bold;
-  padding: 3rem;
 }
 
 
 section {
   height: 100vh;
   box-sizing: border-box;
-  padding: 2rem;
+  padding: 50px;
   color: black;
   font-size: 36px;
   background-color: white;
