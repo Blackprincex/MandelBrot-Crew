@@ -19,7 +19,7 @@ body {
   font-family: "Old Standard TT";
   display: block;
   text-align: center;
-  background: black;
+  background: white;
 }
 
 .image {
@@ -53,14 +53,14 @@ header::before {
   display: grid;
   align-items: center;
   justify-content: center;
-  background: black;
+  background: white;
   animation: typewriter var(--typewriterSpeed)
     steps(var(--typewriterCharacters)) 1s forwards;
 }
 
 header::after {
   width: 0.125em;
-  background: white;
+  background: black;
   animation: typewriter var(--typewriterSpeed)
       steps(var(--typewriterCharacters)) 1s forwards,
     blink 1000ms steps(var(--typewriterCharacters)) infinite;
@@ -71,7 +71,7 @@ section {
   min-height: 100vh;
   box-sizing: border-box;
   padding: 50px;
-  color: white;
+  color: black;
   font-size: 36px;
 }
 
