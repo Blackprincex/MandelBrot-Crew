@@ -3,15 +3,16 @@
   font-size: 100px;
   position: relative;
   text-decoration: none;
-  font-family: "Product Sans",sans-serif;
+  font-family: "Product Sans Regular",sans-serif;
   color: black;
   cursor: pointer;
 }
+
 .header:before{
   content: "";
   position: absolute;
   height: 0.1em;
-  width: 100%;
+  width: 800px;
   background: linear-gradient(
       to right,
       #fd004c,
@@ -25,6 +26,7 @@
   bottom: -0.1em;
   transition: 1.5s;
 }
+
 .header:hover:before{
   background-position: 100% 0;
 }
