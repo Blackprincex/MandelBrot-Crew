@@ -1,7 +1,3 @@
-:root {
-  --typewriterSpeed: 3s;
-  --typewriterCharacters: 24;
-}
 
 @font-face {
   font-family: 'Product Sans Regular';
@@ -37,33 +33,7 @@ header {
   position: relative;
   width: max-content;
   font-weight: bold;
-}
-
-header::before,
-header::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-header::before {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  background: black;
-  animation: typewriter var(--typewriterSpeed)
-    steps(var(--typewriterCharacters)) 1s forwards;
-}
-
-header::after {
-  width: 0.125em;
-  background: white;
-  animation: typewriter var(--typewriterSpeed)
-      steps(var(--typewriterCharacters)) 1s forwards,
-    blink 1000ms steps(var(--typewriterCharacters)) infinite;
+  padding: 3rem;
 }
 
 
@@ -83,26 +53,6 @@ section {
   font-weight: 400;
   opacity: 0;
   transform: translateY(3rem);
-}
-
-
-@keyframes typewriter {
-  to {
-    left: 100%;
-  }
-}
-
-@keyframes blink {
-  to {
-    background: transparent;
-  }
-}
-
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 hr {
