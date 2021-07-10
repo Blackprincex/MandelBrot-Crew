@@ -129,6 +129,6 @@
 }
 
 .project-box:nth-child(1):hover:after, .project-box:nth-child(2):hover:after, .project-box:nth-child(3):hover:after, .project-box:nth-child(4):hover:after, .project-box:nth-child(5):hover:after {
-  outline: 2px solid white;
+  outline: 2px solid black;
 }
 /*# sourceMappingURL=some.css.map */

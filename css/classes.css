@@ -4,7 +4,7 @@
   position: relative;
   text-decoration: none;
   font-family: "Product Sans",sans-serif;
-  color: #ffffff;
+  color: black;
   cursor: pointer;
 }
 .header:before{
@@ -79,6 +79,7 @@
 .left {
   text-align: left;
   font-size: 30px;
+  padding: 2rem;
 }
 
 .center {
@@ -116,8 +117,8 @@
 
 
 .btn-forward{
-  height: 100px;
-  width: 250px;
+  height: 75px;
+  width: 200px;
   background-color: #e8ebf0;
   border: 5px solid #202538;
   position: relative;
@@ -131,7 +132,7 @@
   height: 100%;
   width: 100%;
   background-color: #e8ebf0;
-  border: 5px solid #202538;
+  border: 5px solid rgb(97, 96, 96);
   transition: 0.3s;
 }
 
