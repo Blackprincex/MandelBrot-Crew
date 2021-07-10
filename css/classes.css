@@ -3,7 +3,8 @@
   font-size: 100px;
   position: relative;
   text-decoration: none;
-  font-family: "Product Sans Regular",sans-serif;
+  font-family: 'Product Sans Regular';
+  src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
   color: black;
   cursor: pointer;
 }
@@ -81,7 +82,7 @@
 .left {
   text-align: left;
   font-size: 30px;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .center {
@@ -97,19 +98,10 @@
   src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
 }
 
-
 .text-fill-a {
   background: -webkit-linear-gradient(rgb(255, 81, 0), #f9cb29);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-}
-
-
-.footer {
-  background-image: url('/images/footer.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-y: bottom;
 }
 
 .footer-image {
