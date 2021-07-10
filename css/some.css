@@ -34,7 +34,7 @@
 
 .project-box:hover {
   border: solid 2px white;
-  color: white;
+  color: black;
 }
 
 .project .project-box:nth-child(1) {
@@ -120,7 +120,7 @@
 
 .project-box:nth-child(1):hover, .project-box:nth-child(2):hover, .project-box:nth-child(3):hover, .project-box:nth-child(4):hover, .project-box:nth-child(5):hover {
   background: none;
-  background-color: black;
+  background-color: white;
 }
 
 .project-box:nth-child(1):hover img, .project-box:nth-child(2):hover img, .project-box:nth-child(3):hover img, .project-box:nth-child(4):hover img, .project-box:nth-child(5):hover img {
@@ -129,6 +129,6 @@
 }
 
 .project-box:nth-child(1):hover:after, .project-box:nth-child(2):hover:after, .project-box:nth-child(3):hover:after, .project-box:nth-child(4):hover:after, .project-box:nth-child(5):hover:after {
-  outline: 2px solid white;
+  outline: 2px solid black;
 }
 /*# sourceMappingURL=some.css.map */

@@ -2,7 +2,7 @@
 .topnav {
     position: sticky;
     top: 0;
-    background-color: black;
+    background-color: white;
     overflow: hidden;
     display: block;
     margin-left: auto;
@@ -15,7 +15,7 @@
 .topnav a {
     display: block;
     float: left;
-    color:  white;
+    color:  black;
     padding: 1em;
     font-size: 1.5rem;
     font-weight: bold;
@@ -57,7 +57,7 @@
 }
 
 .section-headers {
-  color: white;
+  color: black;
   font-size: 80px;
   font-weight: bold;
   font-family: 'Product Sans Regular';
