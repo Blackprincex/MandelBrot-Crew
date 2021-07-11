@@ -49,8 +49,8 @@
     display: block;
     float: left;
     color:  black;
-    padding: 1em;
-    font-size: 1.2rem;
+    padding: 13px;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'Product Sans Regular';
     src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
@@ -75,7 +75,7 @@
 }
 
 .column {
-  font-family: 'Product Sans';
+  font-family: 'Old Standard TT';
   font-size: 20px;
   text-align: justify;
   line-height: 35px;
@@ -86,6 +86,7 @@
   -moz-column-gap: 40px;
   column-gap: 40px;
 }
+
 p {
   font-size: 24px;
   text-align: left;
@@ -96,6 +97,7 @@ p {
   font-size: 27px;
   padding: 1rem;
 }
+
 .center {
   text-align: center;
   font-size: 27px;

@@ -1,15 +1,19 @@
 .in-btn {
   width: 150px;
-  height: 50%
+  height: 50%;
+  font-family: 'Product Sans Regular';
+  src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
 }
 
 .btn-forward{
-  height: 75px;
-  width: 200px;
+  height: 100px;
+  width: 250px;
   background-color: white;
   border: 5px solid #000000;
   position: relative;
   cursor: pointer;
+  font-family: 'Product Sans Regular';
+  src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');  
 }
 
 .btn-forward:before,
