@@ -115,7 +115,7 @@ p {
 .text-fill-a {
   background: -webkit-linear-gradient(rgb(255, 81, 0), #f9cb29);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .footer-image {
