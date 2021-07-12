@@ -20,7 +20,7 @@ body {
 
 .image {
   display: block;
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
@@ -39,8 +39,4 @@ hr {
   border-color: black;
   height: auto;
   width: 50%;
-}
-
-div {
-  height: 100vh;
 }
