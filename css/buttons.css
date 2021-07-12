@@ -12,7 +12,7 @@
   border: 5px solid #000000;
   position: relative;
   cursor: pointer;
-  font-family: 'Product Sans Regular';
+  font-family: 'Product Sans Regular', sans-serif;
   src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');  
 }
 
