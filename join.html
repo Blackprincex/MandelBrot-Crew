@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+
+    <title>MandelBrot Crew</title>
+	<link rel="stylesheet" href="./css/cards.css">
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MandelBrot Crew</title>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/main.css">
 	<link rel="stylesheet" href="./css/some.css">
 	<link rel="stylesheet" href="./css/classes.css">
 	<link rel="stylesheet" href="./css/buttons.css">
-	<link rel="stylesheet" href="./css/cards.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro">
 	<meta charset="utf-8">
-	<meta name="theme-color" content="/images/profile.jpgffffff"/>
-
+	<meta name="theme-color" content="#ffffff"/>
 	<link rel="icon" href="./images/favicon.svg" type="image/svg" sizes="32x32">
+
 </head>
 <body>
 
-	<nav class="topnav">
-        <a  href="./index.html">MAIN</a>
-        <a  href="./about.html">ABOUT</a>
-        <a href="./team.html">GOALS</a>
-        <a  href="./join.html">JOIN</a>
-        <a  href="./work.html">WORK</a>
-        <a  href="https://sites.google.com/view/mandelbrot-crew-library/community">CONTACT</a>
-    </nav>
+	<ul class="nav nav-tabs topnav">
+		<li class="nav-item">
+		  <a class="nav-link" href="./index.html">MC</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="./about.html">ABOUT</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="./goals.html">GOALS</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link active" href="./join.html">JOIN</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./work.html">WORK</a>
+		  </li>
+	</ul>
+
+
 	
-	<section>
-		<img src="./images/page_start.svg" alt="MandelBrot">
+	<div class="container p-3 my-3 float-center shadow p-4 mb-4 bg-white">
+		<img src="./images/page_start.svg" class="rounded float-center" alt="MandelBrot">
 
 		<p class="section-headers center"> Join <a class="text-fill-a" href="https://docs.google.com/forms/d/1T31xV6VzLSBkm3uZOFGsS0haxmHAYIRYH8p2LVkQAYk/">Us</a></p>
 	
@@ -43,12 +58,13 @@
 		<a href="https://docs.google.com/forms/d/1T31xV6VzLSBkm3uZOFGsS0haxmHAYIRYH8p2LVkQAYk/">
 			<button class="btn-forward" data-text="Apply Now"></button>
 		</a>
-
+	</div>
+	<div class="container p-3 my-3 float-center shadow p-4 mb-4 bg-white">
 		<p class="section-headers" style="text-align: center;">Current Team</p>
 		<div class="cards">
 			<div class="card card1">
-				<div class="container">
-					<img class="card-img" src="./images/profile.jpg" alt="las vegas">
+				<div class="card-container">
+					<img class="card-img rounded" src="./images/profile.jpg" alt="las vegas">
 				</div>
 				<div class="details">
 					<h3>Las Vegas</h3>
@@ -56,8 +72,8 @@
 				</div>
 			</div>
 			<div class="card card2">
-				<div class="container">
-					<img class="card-img" src="./images/profile.jpg" alt="New York">
+				<div class="card-container">
+					<img class="card-img rounded" src="./images/profile.jpg" alt="New York">
 				</div>
 				<div class="details">
 					<h3>New York</h3>
@@ -65,8 +81,8 @@
 				</div>
 			</div>
 			<div class="card card3">
-				<div class="container">
-					<img class="card-img" src="./images/profile.jpg" alt="Singapore">
+				<div class="card-container">
+					<img class="card-img rounded" src="./images/profile.jpg" alt="Singapore">
 				</div>
 				<div class="details">
 					<h3>Singapore</h3>
@@ -74,6 +90,19 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+
+
+
+	<div class="jumbotron bg-light border text-center" style="margin-bottom:0">
+		<p>Footer</p>
+		<ul class="pagination pagination-lg justify-content-center">
+		<li class="page-item"><a class="page-link" href="./index.html">MAIN</a></li>
+		<li class="page-item"><a class="page-link" href="./about.html">ABOUT</a></li>
+		<li class="page-item"><a class="page-link" href="./team.html">GOALS</a></li>
+		<li class="page-item"><a class="page-link" href="https://sites.google.com/view/mandelbrot-crew-library/community">CONTACT</a></li>
+		<li class="page-item"><a class="page-link" href="./work.html">NEXT</a></li>
+		</ul>
+	</div>
 </body>
 </html>

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+
+    <title>Goals and Partnerships</title>
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goals and Partnerships</title>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/main.css">
 	<link rel="stylesheet" href="./css/some.css">
 	<link rel="stylesheet" href="./css/classes.css">
@@ -15,40 +19,67 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro">
 	<meta charset="utf-8">
 	<meta name="theme-color" content="#ffffff"/>
-	<link rel="icon" href="./images/favicon.svg" type="image/jpg" sizes="32x32">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg" sizes="32x32">
+
 </head>
 <body>
 
-	<nav class="topnav">
-        <a  href="./index.html">MAIN</a>
-        <a  href="./about.html">ABOUT</a>
-        <a href="./team.html">GOALS</a>
-        <a  href="./join.html">JOIN</a>
-        <a  href="./work.html">WORK</a>
-        <a  href="https://sites.google.com/view/mandelbrot-crew-library/community">CONTACT</a>
-    </nav>
+	<ul class="nav nav-tabs topnav">
+		<li class="nav-item">
+		  <a class="nav-link" href="./index.html">MC</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="./about.html">ABOUT</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link active" href="./goals.html">GOALS</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./join.html">JOIN</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./work.html">WORK</a>
+		  </li>
+	</ul>
+
 	
-    <section>
-		<img src="./images/page_start.svg" alt="MandelBrot">
+    <div class="container p-3 my-3 shadow p-4 mb-4 bg-white">
+		<img src="./images/page_start.svg" class="rounded float-center" alt="MandelBrot">
 		<p class="section-headers" style="text-align: center;">Conceive.<br>Plan.<br><a class="text-fill-a">Make.</a></p>
         
 		<p class="text left column">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum voluptatum officiis voluptatibus voluptatem aspernatur doloremque numquam quaerat at nesciunt voluptas magnam dolores suscipit reiciendis laboriosam possimus sint expedita, illo neque!
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur id rem non iure reprehenderit assumenda repellendus blanditiis, illum aperiam, velit iste repellat adipisci distinctio! Dignissimos eos necessitatibus voluptatum eaque expedita!
 		</p>
+	</div>
+
+	<div class="container p-3 my-3 shadow p-4 mb-4 bg-white">	
 	    <p class="section-headers">Collaborations with other Organizations</p>
 		<p class="text left column">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum voluptatum officiis voluptatibus voluptatem aspernatur doloremque numquam quaerat at nesciunt voluptas magnam dolores suscipit reiciendis laboriosam possimus sint expedita, illo neque!
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur id rem non iure reprehenderit assumenda repellendus blanditiis, illum aperiam, velit iste repellat adipisci distinctio! Dignissimos eos necessitatibus voluptatum eaque expedita!
 		</p>
 
+	</div>
+
+	<div class="container p-3 my-3 shadow p-4 mb-4 bg-white">	
 		<p class="section-headers center">Reach Out to Us</p>
-		<img src="./images/consult.gif" alt="think">
+		<!--img src="./images/consult.gif" class="rounded float-center" alt="think"-->
 		<br>
 		<a href="https://sites.google.com/view/mandelbrot-crew-library/community">
 			<button class="btn-forward" data-text="Contact a Member"></button>
 		</a>
-	</section>
+	</div>
 
+	<div class="jumbotron bg-light border text-center" style="margin-bottom:0">
+		<p>Footer</p>
+		<ul class="pagination pagination-lg justify-content-center">
+			<li class="page-item"><a class="page-link" href="./index.html">MAIN</a></li>
+			<li class="page-item"><a class="page-link" href="./about.html">ABOUT</a></li>
+			<li class="page-item"><a class="page-link" href="./work.html">WORK</a></li>
+			<li class="page-item"><a class="page-link" href="https://sites.google.com/view/mandelbrot-crew-library/community">CONTACT</a></li>
+			<li class="page-item"><a class="page-link" href="./join.html">NEXT</a></li>
+		</ul>
+	</div>
 </body>
 </html>

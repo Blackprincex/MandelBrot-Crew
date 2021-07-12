@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+
+    <title>Who we are? - MandelBrot</title>
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Who we are? - MandelBrot</title>
-
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/main.css">
 	<link rel="stylesheet" href="./css/some.css">
 	<link rel="stylesheet" href="./css/classes.css">
@@ -16,21 +19,33 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro">
 	<meta charset="utf-8">
 	<meta name="theme-color" content="#ffffff"/>
+    <link rel="icon" href="./images/favicon.svg" type="image/svg" sizes="32x32">
 
-	<link rel="icon" href="./images/favicon.svg" type="image/jpg" sizes="32x32">
 </head>
 <body>
-    <nav class="topnav">
-        <a  href="./index.html">MAIN</a>
-        <a  href="./about.html">ABOUT</a>
-        <a href="./team.html">GOALS</a>
-        <a  href="./join.html">JOIN</a>
-        <a  href="./work.html">WORK</a>
-        <a  href="https://sites.google.com/view/mandelbrot-crew-library/community">CONTACT</a>
-    </nav>
-    <section>
-		<img src="./images/page_start.svg" alt="MandelBrot">
-		<p class="section-headers center">Who are we?</p>
+
+	<ul class="nav nav-tabs topnav">
+		<li class="nav-item">
+		  <a class="nav-link" href="./index.html">MC</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link active" href="./about.html">ABOUT</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="./goals.html">GOALS</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./join.html">JOIN</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./work.html">WORK</a>
+		  </li>
+	</ul>
+
+
+    <div class="container p-3 my-3 shadow p-4 mb-4 bg-white">
+		<img src="./images/page_start.svg" class="rounded float-center" alt="MandelBrot">
+		<p class="section-headers text-center">Who are we?</p>
 		<p class="text left">
 			"We are who we are because you make us", standing on the shoulders of each other so that we can reach where others cannot.
 			For almost all of conscious civilization, humanity has sought to consolidate for survival- perhaps even more necessary for its seemingly self-aware, <em>Smart</em> cohort.
@@ -44,16 +59,28 @@
 			As motivated as we are, we deisre to make this world a little bit better at time. We are a community, so when you join us,
 			you enjoy the benefits of being able to contribute, have fun, and have your work being recognized by the community and the whole world at large.
         </p>
+	</div>
 
+	<div class="container p-3 my-3 shadow p-4 mb-4 bg-white">
         <p class="section-headers center">Personal Blogs of Team Members</p>
-        <p class="text center">Have a look at what each members does for fun.</p>
+        <p class="text-center">Have a look at what each members does for fun.</p>
 		<br>
 		<br>
 		<a href="https://sites.google.com/view/mandelbrot-crew-library/work/blogs">
 			<button class="btn-forward" data-text="Explore"></button>
 		</a> 
 
-	</section>
+	</div>
 
+	<div class="jumbotron bg-light border text-center" style="margin-bottom:0">
+		<p>Footer</p>
+		<ul class="pagination pagination-lg justify-content-center">
+			<li class="page-item"><a class="page-link" href="./index.html">MAIN</a></li>
+			<li class="page-item"><a class="page-link" href="./work.html">WORK</a></li>
+			<li class="page-item"><a class="page-link" href="./join.html">JOIN</a></li>
+			<li class="page-item"><a class="page-link" href="https://sites.google.com/view/mandelbrot-crew-library/community">CONTACT</a></li>
+			<li class="page-item"><a class="page-link" href="./team.html">GOALS</a></li>
+		</ul>
+	</div>
 </body>
 </html>
