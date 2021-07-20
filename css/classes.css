@@ -9,14 +9,14 @@
   text-decoration: none;
   font-family: 'Product Sans Regular';
   src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
-  color: black;
+  color: white;
   cursor: pointer;
 }
 
 .topnav {
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: black;
     overflow: hidden;
     display: block;
     margin-left: auto;
@@ -29,7 +29,7 @@
 .topnav a {
   display: block;
   float: left;
-  color:  black;
+  color: white;
   padding: 13px;
   font-size: 24px;
   font-weight: bold;
@@ -42,7 +42,7 @@
 
 .topnav a:hover {
   background-color: #eccba0;
-  color: black;
+  color: white;
 }
 
 .text-fill {
@@ -57,8 +57,6 @@
 }
 
 .column {
-  font-family: 'Old Standard TT';
-  font-size: 20px;
   text-align: justify;
   line-height: 35px;
   -webkit-columns: 250px 2;
@@ -72,6 +70,7 @@
 p {
   font-size: 24px;
   text-align: left;
+  padding: 4rem;
 }
 
 .left {
@@ -87,7 +86,7 @@ p {
 }
 
 .section-headers {
-  color: black;
+  color: white;
   font-size: 56px;
   font-weight: bold;
   font-family: 'Product Sans Regular';

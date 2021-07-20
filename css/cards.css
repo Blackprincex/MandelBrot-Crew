@@ -2,7 +2,7 @@
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-    padding: 2rem;
+    padding: 4rem;
     grid-gap: 40px;
 }
 .card{
@@ -14,8 +14,11 @@
     clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
 }
 .card-img{
-    width: 100%;
+    width: 60%;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
 }
 .card-container:after{
     content: "";
@@ -27,25 +30,13 @@
     opacity: 0.7;
 }
 .card1>.card-container:after{
-    background-image: linear-gradient(
-        135deg,
-        #0100ec,
-        #fb36f4
-    );
+    background-color: black;
 }
 .card2>.card-container:after{
-    background-image: linear-gradient(
-        135deg,
-        #2bdce3,
-        #42ffdb
-    );
+    background-color: black;
 }
 .card3>.card-container:after{
-    background-image: linear-gradient(
-        135deg,
-        #ffab1d,
-        #f8501c
-    );
+    background-color: black;
 }
 .details{
     padding: 20px 10px;
