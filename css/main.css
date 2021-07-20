@@ -20,8 +20,9 @@ body {
 
 .image {
   display: block;
-  width: 100%;
+  width: 500px;
   height: auto;
+  float: center;
 }
 
 
@@ -39,4 +40,12 @@ hr {
   border-color: black;
   height: auto;
   width: 50%;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  padding: 3rem;
+  border-radius: 18px;
+  background-color: #eccba0;
 }

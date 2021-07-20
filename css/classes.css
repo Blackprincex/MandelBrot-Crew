@@ -27,21 +27,22 @@
 }
 
 .topnav a {
-    display: block;
-    float: left;
-    color:  black;
-    padding: 13px;
-    font-size: 24px;
-    font-weight: bold;
-    font-family: 'Product Sans Regular';
-    src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
-    overflow: hidden;
-    text-decoration: none;
+  display: block;
+  float: left;
+  color:  black;
+  padding: 13px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Product Sans Regular';
+  src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
+  overflow: hidden;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .topnav a:hover {
-    background-color: orange;
-    color: grey;
+  background-color: #eccba0;
+  color: black;
 }
 
 .text-fill {
