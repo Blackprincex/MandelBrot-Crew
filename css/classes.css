@@ -15,7 +15,6 @@
 
 .topnav {
     position: sticky;
-    top: 0;
     background-color: black;
     overflow: hidden;
     display: block;
