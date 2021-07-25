@@ -7,7 +7,7 @@
   font-size: 80px;
   position: relative;
   text-decoration: none;
-  font-family: 'Product Sans Regular';
+  font-family: 'Product Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
   color: white;
   cursor: pointer;
@@ -32,7 +32,7 @@
   padding: 13px;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Product Sans Regular';
+  font-family: 'Product Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
   overflow: hidden;
   text-decoration: none;
@@ -55,6 +55,85 @@
   -webkit-text-fill-color: grey;
 }
 
+.left-col {
+  float: left;
+  width: 490px;
+  height: auto;
+}
+
+.right-col {
+  float: right;
+  width: 490px;
+  height: auto;
+}
+
+.tile-img1 {
+  width: 50%;
+  height: 444px;
+}
+
+.tile-img2 {
+  background-color: #5654e9;
+}
+
+.tile-img3 {
+  background-color: #FF5937;
+}
+
+.tile-img4 {
+  background-color: #f9cb29;
+}
+
+.tile {
+  padding: 3rem;
+}
+
+.tile-1 {
+  background-image: url(/images/Whangaehu.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.tile-2 {
+  width: 100%;
+  height: 444px;
+}
+
+.tile-3 {
+  background-image: url(/images/Ngaruroro.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.tile-4 {
+  width: 100%;
+  height: 444px;
+}
+
+.tile-5 {
+  background-image: url(/images/Waihou.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.tile-6 {
+  width: 100%;
+  height: 444px;
+}
+
+.tile-7 {
+  background-image: url(/images/Doubs.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.tile-8 {
+  width: 100%;
+  height: 444px;
+}
 .column {
   text-align: justify;
   line-height: 35px;
@@ -88,7 +167,7 @@ p {
   color: white;
   font-size: 56px;
   font-weight: bold;
-  font-family: 'Product Sans Regular';
+  font-family: 'Product Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   src: local('Product Sans Regular'), url('/fonts/ProductSans-Regular.woff') format('woff');
 }
 
