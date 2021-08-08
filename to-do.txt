@@ -1,0 +1,6 @@
+Things to do
+
+- index.html file - title tag change, add "site under development at the bottom of page", fix navigation names
+- add a footer 
+- add pictures to the about.html page
+- remove pictures from meet-the-team page
